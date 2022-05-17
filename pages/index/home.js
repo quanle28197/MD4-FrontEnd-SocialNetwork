@@ -2,10 +2,10 @@ let currentUser = JSON.parse(localStorage.getItem("currentUser")) ;
 
 $(document).ready(function () {
     if (currentUser == null) {
-        location.href = '/login.html';
+        location.href = '/module4-casestudy-frontend/pages/auth/login.html';
     }
 });
-function logOut() {
+function signOut() {
     window.localStorage.clear();
-    location.href = '/login.html';
+    location.href = '/module4-casestudy-frontend/pages/auth/login.html';
 }

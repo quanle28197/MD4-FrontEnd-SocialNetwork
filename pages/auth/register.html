@@ -9,27 +9,29 @@
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback"
           rel="stylesheet">
     <!-- Font Awesome -->
-    <link href="/plugins/fontawesome-free/css/all.min.css" rel="stylesheet">
+    <link href="../../plugins/fontawesome-free/css/all.min.css" rel="stylesheet">
     <!-- icheck bootstrap -->
-    <link href="/plugins/icheck-bootstrap/icheck-bootstrap.min.css" rel="stylesheet">
+    <link href="../../plugins/icheck-bootstrap/icheck-bootstrap.min.css" rel="stylesheet">
     <!-- SweetAlert2 -->
-    <link href="/plugins/sweetalert2-theme-bootstrap-4/bootstrap-4.min.css" rel="stylesheet">
+    <link href="../../plugins/sweetalert2-theme-bootstrap-4/bootstrap-4.min.css" rel="stylesheet">
     <!-- Toastr -->
-    <link href="/plugins/toastr/toastr.min.css" rel="stylesheet">
+    <link href="../../plugins/toastr/toastr.min.css" rel="stylesheet">
     <!-- Theme style -->
-    <link href="/dist/css/adminlte.min.css" rel="stylesheet">
+    <link href="../../dist/css/adminlte.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="register.css">
-
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 
 </head>
 <body class="hold-transition register-page">
 <div class="register-box">
     <div class="card card-outline card-primary">
         <div class="card-header text-center">
-            <a class="h1" href="./index.html"><b>Đăng ký</b></a>
+            <a class="h1" href="../../index.html"><b>Đăng ký</b></a>
         </div>
         <div class="card-body">
+            <p class="login-box-msg">C1221H1</p>
+
             <form id="registerForm">
                 <div class="input-group mb-3">
                     <input class="form-control" id="register_username" name="username" placeholder="Nhập username" type="text"><br>
@@ -122,14 +124,14 @@
                 </div>
 
 
-                <center>
-                    <button class="btn btn-success btn-block" type="button" onclick="register()" id="register">Đăng ký</button>
+                   <center>
+                       <button class="btn btn-success btn-block" type="button" onclick="registerAccount()" id="register">Đăng ký</button>
 
-                </center>
+                   </center>
                 <br>
             </form>
 
-            <a class="text-center" href="login.html">Log in</a>
+            <a class="text-center" href="login.html">Bạn đã có tài khoản? Đăng nhập ngay!</a>
         </div>
         <!-- /.form-box -->
     </div><!-- /.card -->
@@ -137,21 +139,21 @@
 <!-- /.register-box -->
 
 <!-- jQuery -->
-<script src="/plugins/jquery/jquery.min.js"></script>
+<script src="../../plugins/jquery/jquery.min.js"></script>
 <!-- Bootstrap 4 -->
-<script src="/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="../../plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
 <!-- SweetAlert2 -->
-<script src="/plugins/sweetalert2/sweetalert2.min.js"></script>
+<script src="../../plugins/sweetalert2/sweetalert2.min.js"></script>
 <!-- Toastr -->
-<script src="/plugins/toastr/toastr.min.js"></script>
+<script src="../../plugins/toastr/toastr.min.js"></script>
 <!-- AdminLTE App -->
 
-<script src="/dist/js/adminlte.min.js"></script>
+<script src="../../dist/js/adminlte.min.js"></script>
+<script src="../../notification.js"></script>
 <script src="validateRegister.js"></script>
 <script src="register.js"></script>
-<script src="notification.js"></script>
 <!-- jquery-validation -->
-<script src="/plugins/jquery-validation/jquery.validate.min.js"></script>
-<script src="/plugins/jquery-validation/additional-methods.min.js"></script>
+<script src="../../plugins/jquery-validation/jquery.validate.min.js"></script>
+<script src="../../plugins/jquery-validation/additional-methods.min.js"></script>
 </body>
 </html>

@@ -16,10 +16,10 @@ function login() {
         },
         success :  function (currentUser) {
             localStorage.setItem("currentUser", JSON.stringify(currentUser))
-            location.href='./hello.html'
+            location.href='../index/home.html'
         },
         error : function () {
-            showErrorMessage("Your account or your password doesn't match!")
+            showErrorMessage("Tài khoản hoặc mật khẩu không chính xác!")
         }
     })
 }

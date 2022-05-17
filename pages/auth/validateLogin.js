@@ -10,10 +10,11 @@ $(document).ready(function () {
         },
         messages: {
             username: {
-                required: "Enter the user name!",
+                required: "Hãy nhập tên tài khoản!",
             },
             password: {
-                required: "Enter the password!",
+                required: "Hãy nhập mật khẩu!",
+                // required: "Mật khẩu phải ít nhất 6 ký tự gồm 1 số và chữ cái"
             },
         },
         errorElement: 'span',
